@@ -1,0 +1,626 @@
+[2026-04-05 16:02:42] Kết nối Odoo OK
+[2026-04-05 16:03:10] Kết nối Odoo OK
+[2026-04-05 16:03:51] Kết nối DB OK
+[2026-04-05 16:03:51] Plans hiện có: [(1, {'en_US': 'Projects', 'vi_VN': 'Dự án'})]
+[2026-04-05 16:03:51] Dùng plan id=1: {'en_US': 'Projects', 'vi_VN': 'Dự án'}
+[2026-04-05 16:03:51] Đọc được 28 công trình
+[2026-04-05 16:03:51] =======================================================
+[2026-04-05 16:03:51]   ✗ Lỗi [01.150323.03C.DOUSSE]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [02.030423.02C.DOUSSE]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [04.100623.01C.DOUSSI]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [09.170423.05C.MIT]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [19_tỷ]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DAT_02_LO3A-LHP_1100]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DAT_KIENTHUY_C.NHANH]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DAT_RUONG]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DAT_XUANCAU]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DATCAORAOII]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [DATKIENTHUY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [GOCVAY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [HANMUC_BIDV]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [HANMUC_CANHAN1_BIDV]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [HANMUC_SATTHEP]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [KD_LUMORA]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [KHU_TRAI_NGHIEM_KT]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [KIENAN]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [NHA_HUNG 04]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [NHA_KHO ( 41X70)]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [NHA_SIP]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [NHA_TRO_214M]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [Quan_chung_A_Thinh]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [QUAN_HUNGARY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [SoTKSauTom]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [SUANHA19A]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [TIEM_ANH_THINH]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]   ✗ Lỗi [TIEM_NAIL_CHAU_AU]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51] =======================================================
+[2026-04-05 16:03:51] KẾT QUẢ:
+[2026-04-05 16:03:51]   Tạo mới : 0
+[2026-04-05 16:03:51]   Cập nhật: 0
+[2026-04-05 16:03:51]   Lỗi     : 28
+[2026-04-05 16:03:51]     [01.150323.03C.DOUSSE]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [02.030423.02C.DOUSSE]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [04.100623.01C.DOUSSI]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [09.170423.05C.MIT]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [19_tỷ]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DAT_02_LO3A-LHP_1100]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DAT_KIENTHUY_C.NHANH]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DAT_RUONG]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DAT_XUANCAU]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DATCAORAOII]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [DATKIENTHUY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [GOCVAY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [HANMUC_BIDV]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [HANMUC_CANHAN1_BIDV]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [HANMUC_SATTHEP]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [KD_LUMORA]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [KHU_TRAI_NGHIEM_KT]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [KIENAN]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [NHA_HUNG 04]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [NHA_KHO ( 41X70)]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [NHA_SIP]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [NHA_TRO_214M]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [Quan_chung_A_Thinh]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [QUAN_HUNGARY]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [SoTKSauTom]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [SUANHA19A]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [TIEM_ANH_THINH]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51]     [TIEM_NAIL_CHAU_AU]: column "date_start" of relation "account_analytic_account" does not exist
+LINE 4:                      date_start, date)
+                             ^
+
+[2026-04-05 16:03:51] ĐỒNG BỘ CÔNG TRÌNH HOÀN TẤT
+[2026-04-05 16:03:51] =======================================================
+[2026-04-05 16:04:56] Kết nối DB OK
+[2026-04-05 16:04:56] Plans hiện có: [(1, {'en_US': 'Projects', 'vi_VN': 'Dự án'})]
+[2026-04-05 16:04:56] Dùng plan id=1: {'en_US': 'Projects', 'vi_VN': 'Dự án'}
+[2026-04-05 16:04:56] Đọc được 28 công trình
+[2026-04-05 16:04:56] =======================================================
+[2026-04-05 16:04:56]   ✗ Lỗi [01.150323.03C.DOUSSE]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 01 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [02.030423.02C.DOUSSE]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 02 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [04.100623.01C.DOUSSI]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 04 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [09.170423.05C.MIT]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 03 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [19_tỷ]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món cá nhân chị Lan 19 tỷ', '19_tỷ'...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DAT_02_LO3A-LHP_1100]: invalid input syntax for type json
+LINE 4:                 VALUES ('Thửa đất 03 lô 3A LHP 1100M', 'DAT_...
+                                ^
+DETAIL:  Token "Thửa" is invalid.
+CONTEXT:  JSON data, line 1: Thửa...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DAT_KIENTHUY_C.NHANH]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất Kiến Thụy mua của Chú Nhành', '...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DAT_RUONG]: invalid input syntax for type json
+LINE 4:                 VALUES ('Làm đất ruộng Kiến Thụy', 'DAT_RUON...
+                                ^
+DETAIL:  Token "Làm" is invalid.
+CONTEXT:  JSON data, line 1: Làm...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DAT_XUANCAU]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất KCN Lạch Huyện', 'DAT_XUANCAU',...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DATCAORAOII]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua đất Cầu Rào II', 'DATCAORAOII',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [DATKIENTHUY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất bên Kiến Thụy', 'DATKIENTHUY', ...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [GOCVAY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Tiền gốc vay', 'GOCVAY', 1, 1, 1, T...
+                                ^
+DETAIL:  Token "Tiền" is invalid.
+CONTEXT:  JSON data, line 1: Tiền...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [HANMUC_BIDV]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món vay hạn mức kinh doanh gỗ tại B...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [HANMUC_CANHAN1_BIDV]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hạn mức cá nhân Anh Sơn BIDV Trần P...
+                                ^
+DETAIL:  Token "Hạn" is invalid.
+CONTEXT:  JSON data, line 1: Hạn...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [HANMUC_SATTHEP]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món vay hạn mức sắt, thép tại VIB',...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [KD_LUMORA]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hoạt động KD Lumora Kiến Thụy', 'KD...
+                                ^
+DETAIL:  Token "Hoạt" is invalid.
+CONTEXT:  JSON data, line 1: Hoạt...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [KHU_TRAI_NGHIEM_KT]: invalid input syntax for type json
+LINE 4:                 VALUES ('Khu trải nghiệm Kiến Thụy', 'KHU_TR...
+                                ^
+DETAIL:  Token "Khu" is invalid.
+CONTEXT:  JSON data, line 1: Khu...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [KIENAN]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất Đẩu Vũ - Kiến An', 'KIENAN', 1,...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [NHA_HUNG 04]: invalid input syntax for type json
+LINE 4:                 VALUES ('Nhà Hung số 04', 'NHA_HUNG 04', 1, ...
+                                ^
+DETAIL:  Token "Nhà" is invalid.
+CONTEXT:  JSON data, line 1: Nhà...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [NHA_KHO ( 41X70)]: invalid input syntax for type json
+LINE 4:                 VALUES ('Nhà kho bãi Hoàng Sơn DT ( 41 x70)'...
+                                ^
+DETAIL:  Token "Nhà" is invalid.
+CONTEXT:  JSON data, line 1: Nhà...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [NHA_SIP]: invalid input syntax for type json
+LINE 4:                 VALUES ('mua nhà bên SIP', 'NHA_SIP', 1, 1, ...
+                                ^
+DETAIL:  Token "mua" is invalid.
+CONTEXT:  JSON data, line 1: mua...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [NHA_TRO_214M]: invalid input syntax for type json
+LINE 4:                 VALUES ('Làm nhà trọ 214M', 'NHA_TRO_214M', ...
+                                ^
+DETAIL:  Token "Làm" is invalid.
+CONTEXT:  JSON data, line 1: Làm...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [Quan_chung_A_Thinh]: invalid input syntax for type json
+LINE 4:                 VALUES ('Quán chung cùng anh Thịnh bên Đức',...
+                                ^
+DETAIL:  Token "Quán" is invalid.
+CONTEXT:  JSON data, line 1: Quán...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [QUAN_HUNGARY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua Quán bên Hung', 'QUAN_HUNGARY',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [SoTKSauTom]: invalid input syntax for type json
+LINE 4:                 VALUES ('Sổ tiết kiệm cho Sâu Tôm', 'SoTKSau...
+                                ^
+DETAIL:  Token "Sổ" is invalid.
+CONTEXT:  JSON data, line 1: Sổ...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [SUANHA19A]: invalid input syntax for type json
+LINE 4:                 VALUES ('Sửa nhà 19A chợ Đông Hải', 'SUANHA1...
+                                ^
+DETAIL:  Token "Sửa" is invalid.
+CONTEXT:  JSON data, line 1: Sửa...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [TIEM_ANH_THINH]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua Tiệm làm cùng anh Thịnh', 'TIEM...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]   ✗ Lỗi [TIEM_NAIL_CHAU_AU]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua tiệm Nail bên Hung ( Châu ÂU)',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56] =======================================================
+[2026-04-05 16:04:56] KẾT QUẢ:
+[2026-04-05 16:04:56]   Tạo mới : 0
+[2026-04-05 16:04:56]   Cập nhật: 0
+[2026-04-05 16:04:56]   Lỗi     : 28
+[2026-04-05 16:04:56]     [01.150323.03C.DOUSSE]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 01 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]     [02.030423.02C.DOUSSE]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 02 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]     [04.100623.01C.DOUSSI]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 04 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]     [09.170423.05C.MIT]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hợp đồng nhập ủy thác số 03 giữa HS...
+                                ^
+DETAIL:  Token "Hợp" is invalid.
+CONTEXT:  JSON data, line 1: Hợp...
+
+[2026-04-05 16:04:56]     [19_tỷ]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món cá nhân chị Lan 19 tỷ', '19_tỷ'...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]     [DAT_02_LO3A-LHP_1100]: invalid input syntax for type json
+LINE 4:                 VALUES ('Thửa đất 03 lô 3A LHP 1100M', 'DAT_...
+                                ^
+DETAIL:  Token "Thửa" is invalid.
+CONTEXT:  JSON data, line 1: Thửa...
+
+[2026-04-05 16:04:56]     [DAT_KIENTHUY_C.NHANH]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất Kiến Thụy mua của Chú Nhành', '...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]     [DAT_RUONG]: invalid input syntax for type json
+LINE 4:                 VALUES ('Làm đất ruộng Kiến Thụy', 'DAT_RUON...
+                                ^
+DETAIL:  Token "Làm" is invalid.
+CONTEXT:  JSON data, line 1: Làm...
+
+[2026-04-05 16:04:56]     [DAT_XUANCAU]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất KCN Lạch Huyện', 'DAT_XUANCAU',...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]     [DATCAORAOII]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua đất Cầu Rào II', 'DATCAORAOII',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]     [DATKIENTHUY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất bên Kiến Thụy', 'DATKIENTHUY', ...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]     [GOCVAY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Tiền gốc vay', 'GOCVAY', 1, 1, 1, T...
+                                ^
+DETAIL:  Token "Tiền" is invalid.
+CONTEXT:  JSON data, line 1: Tiền...
+
+[2026-04-05 16:04:56]     [HANMUC_BIDV]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món vay hạn mức kinh doanh gỗ tại B...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]     [HANMUC_CANHAN1_BIDV]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hạn mức cá nhân Anh Sơn BIDV Trần P...
+                                ^
+DETAIL:  Token "Hạn" is invalid.
+CONTEXT:  JSON data, line 1: Hạn...
+
+[2026-04-05 16:04:56]     [HANMUC_SATTHEP]: invalid input syntax for type json
+LINE 4:                 VALUES ('Món vay hạn mức sắt, thép tại VIB',...
+                                ^
+DETAIL:  Token "Món" is invalid.
+CONTEXT:  JSON data, line 1: Món...
+
+[2026-04-05 16:04:56]     [KD_LUMORA]: invalid input syntax for type json
+LINE 4:                 VALUES ('Hoạt động KD Lumora Kiến Thụy', 'KD...
+                                ^
+DETAIL:  Token "Hoạt" is invalid.
+CONTEXT:  JSON data, line 1: Hoạt...
+
+[2026-04-05 16:04:56]     [KHU_TRAI_NGHIEM_KT]: invalid input syntax for type json
+LINE 4:                 VALUES ('Khu trải nghiệm Kiến Thụy', 'KHU_TR...
+                                ^
+DETAIL:  Token "Khu" is invalid.
+CONTEXT:  JSON data, line 1: Khu...
+
+[2026-04-05 16:04:56]     [KIENAN]: invalid input syntax for type json
+LINE 4:                 VALUES ('Đất Đẩu Vũ - Kiến An', 'KIENAN', 1,...
+                                ^
+DETAIL:  Token "Đất" is invalid.
+CONTEXT:  JSON data, line 1: Đất...
+
+[2026-04-05 16:04:56]     [NHA_HUNG 04]: invalid input syntax for type json
+LINE 4:                 VALUES ('Nhà Hung số 04', 'NHA_HUNG 04', 1, ...
+                                ^
+DETAIL:  Token "Nhà" is invalid.
+CONTEXT:  JSON data, line 1: Nhà...
+
+[2026-04-05 16:04:56]     [NHA_KHO ( 41X70)]: invalid input syntax for type json
+LINE 4:                 VALUES ('Nhà kho bãi Hoàng Sơn DT ( 41 x70)'...
+                                ^
+DETAIL:  Token "Nhà" is invalid.
+CONTEXT:  JSON data, line 1: Nhà...
+
+[2026-04-05 16:04:56]     [NHA_SIP]: invalid input syntax for type json
+LINE 4:                 VALUES ('mua nhà bên SIP', 'NHA_SIP', 1, 1, ...
+                                ^
+DETAIL:  Token "mua" is invalid.
+CONTEXT:  JSON data, line 1: mua...
+
+[2026-04-05 16:04:56]     [NHA_TRO_214M]: invalid input syntax for type json
+LINE 4:                 VALUES ('Làm nhà trọ 214M', 'NHA_TRO_214M', ...
+                                ^
+DETAIL:  Token "Làm" is invalid.
+CONTEXT:  JSON data, line 1: Làm...
+
+[2026-04-05 16:04:56]     [Quan_chung_A_Thinh]: invalid input syntax for type json
+LINE 4:                 VALUES ('Quán chung cùng anh Thịnh bên Đức',...
+                                ^
+DETAIL:  Token "Quán" is invalid.
+CONTEXT:  JSON data, line 1: Quán...
+
+[2026-04-05 16:04:56]     [QUAN_HUNGARY]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua Quán bên Hung', 'QUAN_HUNGARY',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]     [SoTKSauTom]: invalid input syntax for type json
+LINE 4:                 VALUES ('Sổ tiết kiệm cho Sâu Tôm', 'SoTKSau...
+                                ^
+DETAIL:  Token "Sổ" is invalid.
+CONTEXT:  JSON data, line 1: Sổ...
+
+[2026-04-05 16:04:56]     [SUANHA19A]: invalid input syntax for type json
+LINE 4:                 VALUES ('Sửa nhà 19A chợ Đông Hải', 'SUANHA1...
+                                ^
+DETAIL:  Token "Sửa" is invalid.
+CONTEXT:  JSON data, line 1: Sửa...
+
+[2026-04-05 16:04:56]     [TIEM_ANH_THINH]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua Tiệm làm cùng anh Thịnh', 'TIEM...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56]     [TIEM_NAIL_CHAU_AU]: invalid input syntax for type json
+LINE 4:                 VALUES ('Mua tiệm Nail bên Hung ( Châu ÂU)',...
+                                ^
+DETAIL:  Token "Mua" is invalid.
+CONTEXT:  JSON data, line 1: Mua...
+
+[2026-04-05 16:04:56] ĐỒNG BỘ CÔNG TRÌNH HOÀN TẤT
+[2026-04-05 16:04:56] =======================================================
+[2026-04-05 16:05:47] Kết nối DB OK
+[2026-04-05 16:05:47] Plans hiện có: [(1, {'en_US': 'Projects', 'vi_VN': 'Dự án'})]
+[2026-04-05 16:05:47] Dùng plan id=1: {'en_US': 'Projects', 'vi_VN': 'Dự án'}
+[2026-04-05 16:05:47] Đọc được 28 công trình
+[2026-04-05 16:05:47] =======================================================
+[2026-04-05 16:05:48]   ✓ Tạo mới: [01.150323.03C.DOUSSE] Hợp đồng nhập ủy thác số 01 giữa HS và DP
+[2026-04-05 16:05:48]   ✓ Tạo mới: [02.030423.02C.DOUSSE] Hợp đồng nhập ủy thác số 02 giữa HS và DP
+[2026-04-05 16:05:48]   ✓ Tạo mới: [04.100623.01C.DOUSSI] Hợp đồng nhập ủy thác số 04 giữa HS và DP
+[2026-04-05 16:05:48]   ✓ Tạo mới: [09.170423.05C.MIT] Hợp đồng nhập ủy thác số 03 giữa HS và VAF
+[2026-04-05 16:05:48]   ✓ Tạo mới: [19_tỷ] Món cá nhân chị Lan 19 tỷ
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DAT_02_LO3A-LHP_1100] Thửa đất 03 lô 3A LHP 1100M
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DAT_KIENTHUY_C.NHANH] Đất Kiến Thụy mua của Chú Nhành
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DAT_RUONG] Làm đất ruộng Kiến Thụy
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DAT_XUANCAU] Đất KCN Lạch Huyện
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DATCAORAOII] Mua đất Cầu Rào II
+[2026-04-05 16:05:48]   ✓ Tạo mới: [DATKIENTHUY] Đất bên Kiến Thụy
+[2026-04-05 16:05:48]   ✓ Tạo mới: [GOCVAY] Tiền gốc vay
+[2026-04-05 16:05:48]   ✓ Tạo mới: [HANMUC_BIDV] Món vay hạn mức kinh doanh gỗ tại BIDV | Dự toán: 19,450,000,000 đ
+[2026-04-05 16:05:48]   ✓ Tạo mới: [HANMUC_CANHAN1_BIDV] Hạn mức cá nhân Anh Sơn BIDV Trần Phú
+[2026-04-05 16:05:48]   ✓ Tạo mới: [HANMUC_SATTHEP] Món vay hạn mức sắt, thép tại VIB | Dự toán: 17,640,000,000 đ
+[2026-04-05 16:05:48]   ✓ Tạo mới: [KD_LUMORA] Hoạt động KD Lumora Kiến Thụy
+[2026-04-05 16:05:48]   ✓ Tạo mới: [KHU_TRAI_NGHIEM_KT] Khu trải nghiệm Kiến Thụy
+[2026-04-05 16:05:48]   ✓ Tạo mới: [KIENAN] Đất Đẩu Vũ - Kiến An
+[2026-04-05 16:05:48]   ✓ Tạo mới: [NHA_HUNG 04] Nhà Hung số 04
+[2026-04-05 16:05:48]   ✓ Tạo mới: [NHA_KHO ( 41X70)] Nhà kho bãi Hoàng Sơn DT ( 41 x70)
+[2026-04-05 16:05:48]   ✓ Tạo mới: [NHA_SIP] mua nhà bên SIP
+[2026-04-05 16:05:48]   ✓ Tạo mới: [NHA_TRO_214M] Làm nhà trọ 214M
+[2026-04-05 16:05:48]   ✓ Tạo mới: [Quan_chung_A_Thinh] Quán chung cùng anh Thịnh bên Đức
+[2026-04-05 16:05:48]   ✓ Tạo mới: [QUAN_HUNGARY] Mua Quán bên Hung
+[2026-04-05 16:05:48]   ✓ Tạo mới: [SoTKSauTom] Sổ tiết kiệm cho Sâu Tôm
+[2026-04-05 16:05:48]   ✓ Tạo mới: [SUANHA19A] Sửa nhà 19A chợ Đông Hải
+[2026-04-05 16:05:48]   ✓ Tạo mới: [TIEM_ANH_THINH] Mua Tiệm làm cùng anh Thịnh
+[2026-04-05 16:05:48]   ✓ Tạo mới: [TIEM_NAIL_CHAU_AU] Mua tiệm Nail bên Hung ( Châu ÂU)
+[2026-04-05 16:05:48] =======================================================
+[2026-04-05 16:05:48] KẾT QUẢ:
+[2026-04-05 16:05:48]   Tạo mới : 28
+[2026-04-05 16:05:48]   Cập nhật: 0
+[2026-04-05 16:05:48]   Lỗi     : 0
+[2026-04-05 16:05:48] ĐỒNG BỘ CÔNG TRÌNH HOÀN TẤT
+[2026-04-05 16:05:48] =======================================================

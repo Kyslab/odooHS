@@ -1,0 +1,61 @@
+2026-04-05 22:23:40,090 INFO ============================================================
+2026-04-05 22:23:40,090 INFO BƯỚC 1: Import nhóm vật tư/hàng hóa → product.category
+2026-04-05 22:23:40,098 INFO   Đọc được 12 nhóm
+2026-04-05 22:23:40,099 INFO   Parent category: id=1
+2026-04-05 22:23:40,105 INFO   ✅ Tạo category: CCDC - Công cụ dụng cụ (id=40)
+2026-04-05 22:23:40,105 INFO   ✅ Tạo category: DV - Dịch vụ (id=41)
+2026-04-05 22:23:40,106 INFO   ✅ Tạo category: HH - Hàng hóa (id=42)
+2026-04-05 22:23:40,106 INFO   ✅ Tạo category: HHG - Hàng hóa gỗ (id=43)
+2026-04-05 22:23:40,106 INFO   ✅ Tạo category: GT - Gỗ tròn (id=44)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: GXDK - Gỗ xẻ đóng kiện (id=45)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: GXH - Gỗ xẻ hộp (id=46)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: GXP - Gỗ xẻ phản (id=47)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: NVL - Nguyên vật liệu (id=48)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: OTO - Xe ô tô (id=49)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: TP - Thành phẩm (id=50)
+2026-04-05 22:23:40,108 INFO   ✅ Tạo category: XEMAY - Xe hai bánh gắn máy (id=51)
+2026-04-05 22:23:40,112 INFO   → Tạo mới 12, tổng map 12 nhóm
+2026-04-05 22:23:40,112 INFO 
+============================================================
+2026-04-05 22:23:40,112 INFO BƯỚC 2: Import kho → stock.location (dưới WH/Stock)
+2026-04-05 22:23:40,117 INFO   Đọc được 11 kho
+2026-04-05 22:23:40,124 INFO   Parent location: id=8 (WH/Stock)
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: 152 - Vật tư
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: 153 - Công cụ dụng cụ
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: 155 - Thành phẩm
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: 156 - Hàng hóa
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: 157 - Hàng gửi bán đại lý
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: DHS.HS - Dầu hộp số tại bãi Hoàng Sơn
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: DM.HS - Dầu Dầu máy tại bãi Hoàng Sơn
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: DM.KT - Dầu các loại kho Kiến Thụy
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: DO.HS - Dầu DO tại bãi Hoàng Sơn
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: DTL.HS - Dầu thủy lực tại bãi Hoàng Sơn
+2026-04-05 22:23:40,124 INFO   ⏩ Đã có: NLM.HS - Nước làm mát tại bãi Hoàng Sơn
+2026-04-05 22:23:40,124 INFO   → Tạo mới 0, tổng map 11 kho
+2026-04-05 22:23:40,124 INFO 
+============================================================
+2026-04-05 22:23:40,124 INFO BƯỚC 3: Tạo đơn vị tính còn thiếu
+2026-04-05 22:23:40,124 INFO   UOM hiện có: 48
+2026-04-05 22:23:40,287 INFO   Đơn vị tính trong file HH: ['Bao', 'Bánh', 'Bộ', 'Chai', 'Cái', 'Cây', 'Gói', 'Hộp', 'Lon', 'Lít', 'Ram', 'Tuýp', 'Túi', 'Túi (100 cái)', 'kg', 'm3', 'quả']
+2026-04-05 22:23:40,287 INFO   → Tạo mới 0 UOM, default UOM id=1
+2026-04-05 22:23:40,287 INFO 
+============================================================
+2026-04-05 22:23:40,287 INFO BƯỚC 4: Import sản phẩm/dịch vụ → product.template
+2026-04-05 22:23:40,290 INFO   Sản phẩm đã có trong Odoo: 6
+2026-04-05 22:23:40,373 INFO   ... đã tạo 100 sản phẩm
+2026-04-05 22:23:40,436 INFO   ... đã tạo 200 sản phẩm
+2026-04-05 22:23:40,496 INFO   ... đã tạo 300 sản phẩm
+2026-04-05 22:23:40,561 INFO   ... đã tạo 400 sản phẩm
+2026-04-05 22:23:40,623 INFO   ... đã tạo 500 sản phẩm
+2026-04-05 22:23:40,683 INFO   ... đã tạo 600 sản phẩm
+2026-04-05 22:23:40,739 INFO   ... đã tạo 700 sản phẩm
+2026-04-05 22:23:40,798 INFO   ... đã tạo 800 sản phẩm
+2026-04-05 22:23:40,858 INFO   ... đã tạo 900 sản phẩm
+2026-04-05 22:23:40,916 INFO   ... đã tạo 1000 sản phẩm
+2026-04-05 22:23:40,950 INFO 
+✅ HOÀN TẤT!
+2026-04-05 22:23:40,950 INFO    Category tạo mới : 12
+2026-04-05 22:23:40,950 INFO    Kho tạo mới      : 0
+2026-04-05 22:23:40,950 INFO    UOM tạo mới      : 0
+2026-04-05 22:23:40,950 INFO    Sản phẩm tạo mới : 1053
+2026-04-05 22:23:40,950 INFO    Sản phẩm đã có   : 0

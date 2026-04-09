@@ -1,0 +1,24 @@
+2026-04-05 23:14:58,273 INFO 📂 Đọc file Excel...
+2026-04-05 23:14:58,299 INFO   → Đọc được 241 mã thống kê đang sử dụng
+2026-04-05 23:14:58,452 INFO   Company ID: 1
+2026-04-05 23:15:01,555 INFO   ✅ Đã tạo plan mới qua ORM: ID=4 — Mã thống kê
+2026-04-05 23:15:01,556 INFO   Đã có 0 mã thống kê trong DB
+2026-04-05 23:15:01,591 INFO     ... đã nhập 50 mã thống kê
+2026-04-05 23:15:01,599 INFO     ... đã nhập 100 mã thống kê
+2026-04-05 23:15:01,613 INFO     ... đã nhập 150 mã thống kê
+2026-04-05 23:15:01,624 INFO     ... đã nhập 200 mã thống kê
+2026-04-05 23:15:01,639 INFO 
+  ✅ Kết quả: Tạo mới 241, Bỏ qua (đã có) 0
+2026-04-05 23:15:01,648 INFO   account_analytic_account.parent_id exists: False
+2026-04-05 23:15:01,648 INFO   ℹ️  Không có cột parent_id — dữ liệu phẳng
+2026-04-05 23:15:01,648 INFO 
+  ⚙️  Cấu hình bắt buộc nhập mã thống kê khi ghi nhận doanh thu...
+2026-04-05 23:15:01,652 INFO   ✅ Đã TẠO quy tắc bắt buộc cho TK prefix '5'
+2026-04-05 23:15:01,653 INFO   ✅ Đã TẠO quy tắc bắt buộc cho TK prefix '7'
+2026-04-05 23:15:01,654 INFO 
+✅ HOÀN TẤT! Đã commit tất cả thay đổi.
+2026-04-05 23:15:01,654 INFO    Plan ID       : 4
+2026-04-05 23:15:01,654 INFO    Tổng mã       : 241
+2026-04-05 23:15:01,654 INFO    Mới tạo       : 241
+2026-04-05 23:15:01,654 INFO    Đã có sẵn     : 0
+2026-04-05 23:15:01,654 INFO    Bắt buộc nhập : TK bắt đầu bằng ['5', '7']

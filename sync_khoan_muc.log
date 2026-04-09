@@ -1,0 +1,28 @@
+2026-04-05 17:07:19,342 INFO 📂 Đọc file Excel...
+2026-04-05 17:07:19,389 INFO   → Đọc được 706 khoản mục đang sử dụng
+2026-04-05 17:07:19,436 INFO   Company ID: 1
+2026-04-05 17:07:19,456 INFO   Plan đã tồn tại: ID=3
+2026-04-05 17:07:19,456 INFO   Đã có 0 khoản mục trong DB
+2026-04-05 17:07:19,485 INFO     ... đã nhập 100 khoản mục
+2026-04-05 17:07:19,506 INFO     ... đã nhập 200 khoản mục
+2026-04-05 17:07:19,527 INFO     ... đã nhập 300 khoản mục
+2026-04-05 17:07:19,545 INFO     ... đã nhập 400 khoản mục
+2026-04-05 17:07:19,566 INFO     ... đã nhập 500 khoản mục
+2026-04-05 17:07:19,587 INFO     ... đã nhập 600 khoản mục
+2026-04-05 17:07:19,610 INFO     ... đã nhập 700 khoản mục
+2026-04-05 17:07:19,612 INFO 
+  ✅ Kết quả: Tạo mới 706, Bỏ qua (đã có) 0
+2026-04-05 17:07:19,612 INFO 
+  🔗 Cập nhật quan hệ cha-con...
+2026-04-05 17:07:19,763 INFO   account_analytic_account.parent_id exists: False
+2026-04-05 17:07:19,763 INFO   ℹ️  Không có cột parent_id — dữ liệu phẳng (flat), không phân cấp
+2026-04-05 17:07:19,763 INFO 
+  ⚙️  Cấu hình bắt buộc chọn khoản mục chi phí...
+2026-04-05 17:07:19,765 INFO   ✅ Đã TẠO quy tắc bắt buộc cho tài khoản prefix '6'
+2026-04-05 17:07:19,766 INFO   ✅ Đã TẠO quy tắc bắt buộc cho tài khoản prefix '7'
+2026-04-05 17:07:19,768 INFO 
+✅ HOÀN TẤT! Đã commit tất cả thay đổi.
+2026-04-05 17:07:19,768 INFO    Plan ID: 3
+2026-04-05 17:07:19,768 INFO    Tổng khoản mục đã nhập: 706
+2026-04-05 17:07:19,768 INFO    Mới tạo: 706
+2026-04-05 17:07:19,768 INFO    Đã có sẵn: 0

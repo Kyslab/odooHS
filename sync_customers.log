@@ -1,0 +1,34 @@
+[2026-04-05 13:07:13] =======================================================
+[2026-04-05 13:07:13] BẮT ĐẦU ĐỒNG BỘ KHÁCH HÀNG MISA → ODOO
+[2026-04-05 13:07:13] File: C:\Users\DELL\Downloads\in xong xoa\Danh_sach_khach_hang.xlsx
+[2026-04-05 13:07:15] Kết nối Odoo OK
+[2026-04-05 13:07:17] Odoo hiện có 397 bản ghi từ MISA
+[2026-04-05 13:07:17] Excel có 398 khách hàng hợp lệ
+[2026-04-05 13:07:17] Phát hiện 1 khách hàng MỚI cần thêm vào Odoo
+[2026-04-05 13:07:21]   ✗ Lỗi [anh Dâng] Nguyễn văn Dâng: <Fault 2: 'The operation cannot be completed: External IDs cannot contain spaces'>
+[2026-04-05 13:07:21] KẾT QUẢ: Tạo mới=0 | Lỗi=1
+[2026-04-05 13:07:21] ĐỒNG BỘ HOÀN TẤT
+[2026-04-05 13:07:21] =======================================================
+[2026-04-05 13:07:33] =======================================================
+[2026-04-05 13:07:33] BẮT ĐẦU ĐỒNG BỘ KHÁCH HÀNG MISA → ODOO
+[2026-04-05 13:07:33] File: C:\Users\DELL\Downloads\in xong xoa\Danh_sach_khach_hang.xlsx
+[2026-04-05 13:07:36] Kết nối Odoo OK
+[2026-04-05 13:07:38] Odoo hiện có 397 bản ghi từ MISA
+[2026-04-05 13:07:38] Excel có 398 khách hàng hợp lệ
+[2026-04-05 13:07:38] Phát hiện 1 khách hàng MỚI cần thêm vào Odoo
+[2026-04-05 13:07:42]   ✓ Tạo mới: [anh Dâng] Nguyễn văn Dâng
+[2026-04-05 13:07:42] KẾT QUẢ: Tạo mới=1 | Lỗi=0
+[2026-04-05 13:07:42] ĐỒNG BỘ HOÀN TẤT
+[2026-04-05 13:07:42] =======================================================
+[2026-04-05 15:32:28] =======================================================
+[2026-04-05 15:32:28] BẮT ĐẦU ĐỒNG BỘ KHÁCH HÀNG MISA → ODOO
+[2026-04-05 15:32:28] File: C:\Users\DELL\Downloads\in xong xoa\Danh_sach_khach_hang.xlsx
+[2026-04-05 15:32:31] Kết nối Odoo OK
+[2026-04-05 15:32:31] Đang load danh mục nhóm (tags)...
+[2026-04-05 15:33:15] Đã load 21 nhóm tags
+[2026-04-05 15:33:17] Odoo hiện có 430 bản ghi từ MISA
+[2026-04-05 15:33:17] Excel có 398 khách hàng hợp lệ
+[2026-04-05 15:33:17] Phát hiện 0 khách hàng MỚI cần thêm vào Odoo
+[2026-04-05 15:33:17] Không có gì mới. Kết thúc.
+[2026-04-05 15:33:17] ĐỒNG BỘ HOÀN TẤT
+[2026-04-05 15:33:17] =======================================================

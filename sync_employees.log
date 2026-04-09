@@ -1,0 +1,107 @@
+[2026-04-05 14:53:52] Kết nối Odoo OK
+[2026-04-05 14:53:56] Có 1 phòng ban hiện tại
+[2026-04-05 14:54:01] Đọc được 69 nhân viên
+[2026-04-05 14:54:01] =======================================================
+[2026-04-05 14:54:03]   + Tạo phòng ban: [LX] Bộ phận lái xe
+[2026-04-05 14:54:07]   ✓ Tạo mới: [LX001] Mai Văn Sơn (15C-12812) | Bộ phận lái xe
+[2026-04-05 14:54:12]   ✓ Tạo mới: [LX002] Trương Văn Cao (15C-13840) | Bộ phận lái xe
+[2026-04-05 14:54:16]   ✓ Tạo mới: [LX003] Phạm Viết Thành (15C-13959) | Bộ phận lái xe
+[2026-04-05 14:54:20]   ✓ Tạo mới: [LX004] Ngô Quang Hưng (15H-10041) | Bộ phận lái xe
+[2026-04-05 14:54:24]   ✓ Tạo mới: [LX005] Phạm Hoàng Quyết (15C-03426) | Bộ phận lái xe
+[2026-04-05 14:54:29]   ✓ Tạo mới: [LX006] Trần Văn Hiển (15H-10053) | Bộ phận lái xe
+[2026-04-05 14:54:33]   ✓ Tạo mới: [LX007] Bùi Đức Thành (15C-11486) | Bộ phận lái xe
+[2026-04-05 14:54:37]   ✓ Tạo mới: [LX008] Vũ Đình Hà (15C-13958) | Bộ phận lái xe
+[2026-04-05 14:54:41]   ✓ Tạo mới: [LX009] Phạm Văn Thịnh (15C-11200) | Bộ phận lái xe
+[2026-04-05 14:54:46]   ✓ Tạo mới: [LX010] Vũ Đức Chiến (15C-13368) | Bộ phận lái xe
+[2026-04-05 14:54:50]   ✓ Tạo mới: [LX011] Đoàn Văn Hà (15C-10691) | Bộ phận lái xe
+[2026-04-05 14:54:54]   ✓ Tạo mới: [LX012] Nguyễn Văn Tiến (15C-12874) | Bộ phận lái xe
+[2026-04-05 14:54:58]   ✓ Tạo mới: [LX013] Ngụy Văn Toàn (15C-25418) | Bộ phận lái xe
+[2026-04-05 14:55:03]   ✓ Tạo mới: [LX014] Trương Văn Huy (15C-13616) | Bộ phận lái xe
+[2026-04-05 14:55:07]   ✓ Tạo mới: [LX015] Lê Anh Tân (15C-13969) | Bộ phận lái xe
+[2026-04-05 14:55:11]   ✓ Tạo mới: [LX016] Trương Văn Sỹ (15C-12876) | Bộ phận lái xe
+[2026-04-05 14:55:15]   ✓ Tạo mới: [LX017] Hoàng Văn Hưng (15C-15237) | Bộ phận lái xe
+[2026-04-05 14:55:20]   ✓ Tạo mới: [LX018] Phạm Văn Hưng (15C-11856) | Bộ phận lái xe
+[2026-04-05 14:55:24]   ✓ Tạo mới: [LX019] Nguyễn Đắc Đạt (15C-13036) | Bộ phận lái xe
+[2026-04-05 14:55:28]   ✓ Tạo mới: [LX020] Phạm Văn Qua (15C-10812) | Bộ phận lái xe
+[2026-04-05 14:55:32]   ✓ Tạo mới: [LX021] Đặng Văn Học (15C-13568) | Bộ phận lái xe
+[2026-04-05 14:55:37]   ✓ Tạo mới: [LX022] Nguyễn Văn Hùng (15H-09877) | Bộ phận lái xe
+[2026-04-05 14:55:41]   ✓ Tạo mới: [LX023] Phạm Thành Luân (15C-13568) | Bộ phận lái xe
+[2026-04-05 14:55:45]   ✓ Tạo mới: [LX024] Nguyễn Văn Huy (15C-15237) | Bộ phận lái xe
+[2026-04-05 14:55:47]   + Tạo phòng ban: [VP] Bộ phận văn phòng
+[2026-04-05 14:55:52]   ✓ Tạo mới: [NV001] Vũ Thị Lan Anh | Bộ phận văn phòng
+[2026-04-05 14:55:56]     → Cập nhật partner KH/NCC: Vũ Thị Lan Anh
+[2026-04-05 14:56:00]   ✓ Tạo mới: [NV002] Phan Thị Cẩm Vân | Bộ phận văn phòng
+[2026-04-05 14:56:04]     → Cập nhật partner KH/NCC: Phan Thị Cẩm Vân
+[2026-04-05 14:56:09]   ✓ Tạo mới: [NV003] Phạm Thành Luân | Bộ phận văn phòng
+[2026-04-05 14:56:13]     → Cập nhật partner KH/NCC: Phạm Thành Luân
+[2026-04-05 14:56:17]   ✓ Tạo mới: [NV004] Lại Diệu Hoàng | Bộ phận văn phòng
+[2026-04-05 14:56:21]     → Cập nhật partner KH/NCC: Lại Diệu Hoàng
+[2026-04-05 14:56:25]   ✓ Tạo mới: [NV005] Vũ Thị Thu Hằng | Bộ phận văn phòng
+[2026-04-05 14:56:30]     → Cập nhật partner KH/NCC: Vũ Thị Thu Hằng
+[2026-04-05 14:56:32]   + Tạo phòng ban: [QLNH] Bộ phận quản lý nâng, hạ, kho, bãi
+[2026-04-05 14:56:36]   ✓ Tạo mới: [NV006] Huỳnh Ngọc Phú | Bộ phận quản lý nâng, hạ, kho, bãi
+[2026-04-05 14:56:40]     → Cập nhật partner KH/NCC: Huỳnh Ngọc Phú
+[2026-04-05 14:56:42]   + Tạo phòng ban: [KDS1] Bộ phận kinh doanh sắt
+[2026-04-05 14:56:47]   ✓ Tạo mới: [NV007] Hà Công Sơn | Bộ phận kinh doanh sắt
+[2026-04-05 14:56:49]   + Tạo phòng ban: [VPCGHS] Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 14:56:53]   ✓ Tạo mới: [NV008] Đỗ Văn Thành | Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 14:56:57]     → Cập nhật partner KH/NCC: Đỗ Văn Thành
+[2026-04-05 14:57:01]   ✓ Tạo mới: [NV009] Đoàn Văn Kỳ | Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 14:57:06]     → Cập nhật partner KH/NCC: Đoàn Văn Kỳ
+[2026-04-05 14:57:10]   ✓ Tạo mới: [NV010] Dương Đức Thắng (gỗ) | Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 14:57:12]   + Tạo phòng ban: [KS] Bộ phận kiểm soát hàng nhập - hàng xuất
+[2026-04-05 14:57:16]   ✓ Tạo mới: [NV012] Hoàng Tiến Mạnh | Bộ phận kiểm soát hàng nhập - hàng xuất
+[2026-04-05 14:57:18]   + Tạo phòng ban: [GN] Bộ phận giao nhận xuất gỗ
+[2026-04-05 14:57:23]   ✓ Tạo mới: [NV013] Nguyễn Thành Luân (gỗ) | Bộ phận giao nhận xuất gỗ
+[2026-04-05 14:57:27]   ✓ Tạo mới: [NV014] Nguyễn Thành Luân (sắt) | Bộ phận giao nhận xuất gỗ
+[2026-04-05 14:57:29]   + Tạo phòng ban: [LN] Bộ phận lái nâng
+[2026-04-05 14:57:33]   ✓ Tạo mới: [NV015] Nguyễn Hữu Kỳ | Bộ phận lái nâng
+[2026-04-05 14:57:35]   + Tạo phòng ban: [LNG] Bộ phận lái ngoạm
+[2026-04-05 14:57:39]   ✓ Tạo mới: [NV016] Nguyễn Văn Tiến | Bộ phận lái ngoạm
+[2026-04-05 14:57:44]   ✓ Tạo mới: [NV017] Nguyễn Trung Ba | Bộ phận lái ngoạm
+[2026-04-05 14:57:48]   ✓ Tạo mới: [NV018] Nguyễn Xuân Duy | Bộ phận lái ngoạm
+[2026-04-05 14:57:52]   ✓ Tạo mới: [NV019] Vũ Văn Tân | Bộ phận lái ngoạm
+[2026-04-05 14:57:54]   + Tạo phòng ban: [CT] Bộ phận căng tin
+[2026-04-05 14:57:59]   ✓ Tạo mới: [NV020] Đỗ Thị Phương | Bộ phận căng tin
+[2026-04-05 14:58:03]     → Cập nhật partner KH/NCC: Đỗ Thị Phương
+[2026-04-05 14:58:07]   ✓ Tạo mới: [NV021] Trịnh Thị Phương Thanh | Bộ phận căng tin
+[2026-04-05 14:58:11]     → Cập nhật partner KH/NCC: Trịnh Thị Phương Thanh
+[2026-04-05 14:58:14]   + Tạo phòng ban: [QLSC] Bộ phận quản lý sửa chữa
+[2026-04-05 14:58:18]   ✓ Tạo mới: [NV022] Trần Thành Minh | Bộ phận quản lý sửa chữa
+[2026-04-05 14:58:22]     → Cập nhật partner KH/NCC: Trần Thành Minh
+[2026-04-05 14:58:24]   + Tạo phòng ban: [NVSC] Bộ phận sửa chữa + thợ hàn
+[2026-04-05 14:58:28]   ✓ Tạo mới: [NV023] Lê Thành Văn | Bộ phận sửa chữa + thợ hàn
+[2026-04-05 14:58:31]   + Tạo phòng ban: [GV2] Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:58:35]   ✓ Tạo mới: [NV024] Nguyễn Văn Hệ | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:58:39]   ✓ Tạo mới: [NV025] Thái Thị Thoa | Bộ phận căng tin
+[2026-04-05 14:58:43]   ✓ Tạo mới: [NV026] Bùi Thị Dung | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:58:48]   ✓ Tạo mới: [NV027] Chị Lộc giúp việc | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:58:52]   ✓ Tạo mới: [NV028] Trần Thị Mận | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:58:56]     → Cập nhật partner KH/NCC: Trần Thị Mận
+[2026-04-05 14:59:00]   ✓ Tạo mới: [NV029] Khoa Năng Đạo | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:05]   ✓ Tạo mới: [NV030] Lê Trọng Tú | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:09]   ✓ Tạo mới: [NV031] Nguyễn Thị Chiến | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:13]   ✓ Tạo mới: [NV032] Chị Mai giúp việc | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:17]   ✓ Tạo mới: [NV033] Nguyễn Văn Thành | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:22]   ✓ Tạo mới: [NV034] Chị Xuân giúp việc | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:26]   ✓ Tạo mới: [NV035] Cô Yến Tuân | Bộ phận văn phòng
+[2026-04-05 14:59:30]   ✓ Tạo mới: [NV036] Đỗ Gia Phú | Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 14:59:34]   ✓ Tạo mới: [NV037] Người làm thời vụ | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:39]   ✓ Tạo mới: [NV038] Đào Phong Lan | Bộ phận quản lý nâng, hạ, kho, bãi
+[2026-04-05 14:59:43]     → Cập nhật partner KH/NCC: Đào Phong Lan
+[2026-04-05 14:59:47]   ✓ Tạo mới: [NV039] Nguyễn Thị Thanh | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:51]   ✓ Tạo mới: [NV040] Đặng Thị Tho | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 14:59:56]   ✓ Tạo mới: [NV041] Nguyễn Thị Ngoãn | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 15:00:00]   ✓ Tạo mới: [NV042] Bà Hinh | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 15:00:04]   ✓ Tạo mới: [NV043] Bà Nhạn | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 15:00:09]   ✓ Tạo mới: [NV044] Bùi Văn Đạt | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 15:00:13]   ✓ Tạo mới: [NV045] Mai Vũ Duy | Văn phòng Chợ gỗ Hoàng Sơn
+[2026-04-05 15:00:17]     → Cập nhật partner KH/NCC: Mai Vũ Duy
+[2026-04-05 15:00:21]   ✓ Tạo mới: [NV046] Bà Tám | Bộ phận giúp việc tại vườn Kiến Thụy
+[2026-04-05 15:00:21] =======================================================
+[2026-04-05 15:00:21] KẾT QUẢ:
+[2026-04-05 15:00:21]   Tạo mới nhân viên : 69
+[2026-04-05 15:00:21]   Cập nhật          : 0
+[2026-04-05 15:00:21]   Lỗi               : 0
+[2026-04-05 15:00:21] ĐỒNG BỘ NHÂN VIÊN HOÀN TẤT
+[2026-04-05 15:00:21] =======================================================
