@@ -1,0 +1,34 @@
+/* Sổ Quỹ Tiền Mặt - Custom styles */
+
+/* Header buttons */
+.o_cash_manager .o_control_panel .o_cp_buttons .btn-thu-tien {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+.o_cash_manager .o_control_panel .o_cp_buttons .btn-chi-tien {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    font-weight: bold;
+}
+
+/* Dòng Thu tiền: màu xanh nhạt */
+.o_data_row.o_decoration_success {
+    background-color: #f0fff4 !important;
+}
+
+/* Dòng Chi tiền: màu đỏ nhạt */
+.o_data_row.o_decoration_danger {
+    background-color: #fff5f5 !important;
+}
+
+/* Badge loại chứng từ */
+.badge.text-bg-success {
+    background-color: #28a745 !important;
+}
+.badge.text-bg-danger {
+    background-color: #dc3545 !important;
+}

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Form view wizard Thu tiền ngân hàng theo hóa đơn -->
+    <record id="view_bank_receipt_invoice_wizard_form" model="ir.ui.view">
+        <field name="name">bank.receipt.invoice.wizard.form</field>
+        <field name="model">bank.receipt.invoice.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Thu Tiền Ngân Hàng Theo Hóa Đơn">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>Thu Tiền Ngân Hàng Theo Hóa Đơn</h1>
+                    </div>
+
+                    <group col="2">
+                        <group string="Thông tin chứng từ">
+                            <field name="date"/>
+                            <field name="journal_id" options="{'no_create': True}"/>
+                            <field name="currency_id" invisible="1"/>
+                        </group>
+                        <group string="Khách hàng">
+                            <field name="partner_id"
+                                   options="{'no_create': True}"
+                                   placeholder="Chọn khách hàng để load hóa đơn..."/>
+                            <field name="ly_do" placeholder="Lý do thu tiền..."/>
+                            <field name="dien_giai" placeholder="Diễn giải chi tiết..."/>
+                        </group>
+                    </group>
+
+                    <div class="mb-3">
+                        <button name="action_load_invoices"
+                                string="Tải / Làm mới danh sách hóa đơn"
+                                type="object"
+                                class="btn btn-secondary btn-sm"
+                                invisible="not partner_id"/>
+                    </div>
+
+                    <notebook>
+                        <page string="Danh sách hóa đơn chưa thu">
+
+                            <div class="mb-2 d-flex align-items-center gap-2"
+                                 invisible="not invoice_line_ids">
+                                <field name="chon_tat_ca" nolabel="1"/>
+                                <label for="chon_tat_ca" string="Chọn / Bỏ chọn tất cả"/>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-2 mb-2 p-2 border rounded bg-100"
+                                 invisible="not invoice_line_ids">
+                                <span class="fw-bold text-muted small">Lọc:</span>
+                                <field name="f_date_from" nolabel="1"
+                                       placeholder="Từ ngày" style="max-width:130px"/>
+                                <field name="f_date_to" nolabel="1"
+                                       placeholder="Đến ngày" style="max-width:130px"/>
+                                <field name="f_so_ct" nolabel="1"
+                                       placeholder="Số CT..." style="max-width:130px"/>
+                                <field name="f_tk" nolabel="1"
+                                       placeholder="TK (131...)" style="max-width:100px"/>
+                                <field name="f_dien_giai" nolabel="1"
+                                       placeholder="Diễn giải..." style="max-width:160px"/>
+                                <button name="action_apply_filter"
+                                        string="Lọc"
+                                        type="object"
+                                        class="btn btn-sm btn-primary"/>
+                                <button name="action_clear_filter"
+                                        string="Xóa lọc"
+                                        type="object"
+                                        class="btn btn-sm btn-secondary"
+                                        invisible="not f_date_from and not f_date_to and not f_so_ct and not f_tk and not f_dien_giai"/>
+                            </div>
+
+                            <field name="invoice_line_ids" widget="one2many" nolabel="1">
+                                <tree string="Hóa đơn chưa thu"
+                                      editable="bottom"
+                                      decoration-success="selected == True"
+                                      decoration-muted="selected == False">
+
+                                    <field name="selected"/>
+                                    <field name="invoice_date" string="Ngày" readonly="1"/>
+                                    <field name="invoice_name" string="Số chứng từ" readonly="1"/>
+                                    <field name="account_code" string="TK" readonly="1"/>
+                                    <field name="dien_giai" string="Diễn giải" readonly="1"/>
+                                    <field name="amount_total"
+                                           string="Tổng tiền HĐ"
+                                           widget="monetary"
+                                           readonly="1"
+                                           optional="hide"
+                                           sum="Tổng HĐ"/>
+                                    <field name="amount_residual"
+                                           string="Còn phải thu"
+                                           widget="monetary"
+                                           readonly="1"
+                                           sum="Tổng còn phải thu"/>
+                                    <field name="amount_to_pay"
+                                           string="Tiền NH thu"
+                                           widget="monetary"
+                                           sum="Tổng tiền NH thu"/>
+                                    <field name="chiet_khau_amount"
+                                           string="Chiết khấu"
+                                           widget="monetary"
+                                           sum="Tổng chiết khấu"/>
+                                    <field name="chiet_khau_account_id"
+                                           string="TK chiết khấu"
+                                           options="{'no_create': True, 'no_open': True}"
+                                           optional="show"/>
+                                    <field name="chiet_khau_analytic_id"
+                                           string="Khoản mục CP"
+                                           options="{'no_create': True, 'no_open': True}"
+                                           optional="show"/>
+
+                                    <field name="currency_id" column_invisible="1"/>
+                                    <field name="invoice_id" column_invisible="1"/>
+                                    <field name="tk131_account_id" column_invisible="1"/>
+                                    <field name="invoice_tk131_line_id" column_invisible="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+
+                    <group class="oe_subtotal_footer oe_right">
+                        <field name="count_selected" string="Số HĐ đã chọn" readonly="1"/>
+                        <field name="total_tien_mat"
+                               string="Tổng tiền NH"
+                               widget="monetary"
+                               readonly="1"/>
+                        <field name="total_chiet_khau"
+                               string="Tổng chiết khấu"
+                               widget="monetary"
+                               readonly="1"
+                               invisible="total_chiet_khau == 0"/>
+                        <field name="total_thanh_toan"
+                               string="Tổng thanh toán"
+                               widget="monetary"
+                               readonly="1"
+                               class="oe_subtotal_footer_separator"/>
+                    </group>
+
+                    <div class="alert alert-info" role="alert" invisible="invoice_line_ids">
+                        <strong>Chưa có hóa đơn.</strong>
+                        Vui lòng chọn khách hàng — danh sách hóa đơn chưa thu sẽ hiện ra tự động.
+                    </div>
+                </sheet>
+
+                <footer>
+                    <button name="action_confirm"
+                            string="Thu Tiền"
+                            type="object"
+                            class="btn-success"
+                            invisible="not invoice_line_ids"/>
+                    <button string="Hủy" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_bank_receipt_invoice_wizard" model="ir.actions.act_window">
+        <field name="name">Thu Tiền Ngân Hàng Theo Hóa Đơn</field>
+        <field name="res_model">bank.receipt.invoice.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'dialog_size': 'extra-large'}</field>
+    </record>
+</odoo>

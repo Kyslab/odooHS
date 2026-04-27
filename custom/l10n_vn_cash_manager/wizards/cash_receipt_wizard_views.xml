@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Form wizard Thu tiền -->
+    <record id="view_cash_receipt_wizard_form" model="ir.ui.view">
+        <field name="name">cash.receipt.wizard.form</field>
+        <field name="model">cash.receipt.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Thu Tiền Mặt">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <span class="text-success">💰 Thu Tiền Mặt</span>
+                        </h1>
+                    </div>
+                    <group col="2">
+                        <group string="Thông tin chứng từ">
+                            <field name="date"/>
+                            <field name="journal_id"/>
+                            <field name="currency_id" invisible="1"/>
+                        </group>
+                        <group string="Đối tượng &amp; Số tiền">
+                            <field name="partner_id"
+                                   options="{'no_create': True}"
+                                   placeholder="Chọn khách hàng..."/>
+                            <field name="amount" widget="monetary"/>
+                        </group>
+                    </group>
+                    <group col="2">
+                        <group string="Hạch toán">
+                            <field name="account_id"
+                                   domain="[('deprecated', '=', False)]"
+                                   placeholder="TK131, TK511..."
+                                   options="{'no_create': True}"/>
+                        </group>
+                        <group string="Diễn giải">
+                            <field name="ly_do" placeholder="Lý do thu tiền..."/>
+                            <field name="dien_giai" placeholder="Diễn giải chi tiết..."/>
+                        </group>
+                    </group>
+                    <group col="2">
+                        <group string="Phân tích">
+                            <field name="ma_thong_ke_id" options="{'no_create': True}"/>
+                            <field name="khoan_muc_id" options="{'no_create': True}"/>
+                            <field name="cong_trinh_id" options="{'no_create': True}"/>
+                        </group>
+                        <group/>
+                    </group>
+                    <div class="alert alert-info" role="alert">
+                        <strong>Hạch toán tự động:</strong>
+                        Nợ TK <em>Tiền mặt</em> / Có TK <em>đối ứng</em> đã chọn
+                    </div>
+                </sheet>
+                <footer>
+                    <button name="action_tao_phieu_thu"
+                            string="✅ Tạo Phiếu Thu"
+                            type="object"
+                            class="btn-success"/>
+                    <button string="Hủy" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action mở wizard Thu tiền -->
+    <record id="action_cash_receipt_wizard" model="ir.actions.act_window">
+        <field name="name">Thu Tiền Mặt</field>
+        <field name="res_model">cash.receipt.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{}</field>
+    </record>
+</odoo>

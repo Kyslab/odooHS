@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ── TREE VIEW: Danh sách phiếu thu/chi tiền mặt ── -->
+    <record id="view_cash_move_list" model="ir.ui.view">
+        <field name="name">cash.move.list</field>
+        <field name="model">account.move</field>
+        <field name="arch" type="xml">
+            <tree string="Sổ Quỹ Tiền Mặt"
+                  decoration-success="x_loai_ct == 'thu'"
+                  decoration-danger="x_loai_ct == 'chi'"
+                  default_order="date desc, name desc"
+                  multi_edit="1">
+
+                <field name="date" string="Ngày hạch toán" optional="show"/>
+                <field name="name" string="Số chứng từ" optional="show"/>
+                <field name="x_dien_giai" string="Diễn giải" optional="show"/>
+                <field name="x_ly_do" string="Lý do thu/chi" optional="show"/>
+                <field name="x_so_tien_quy"
+                       string="Số tiền"
+                       widget="monetary"
+                       optional="show"/>
+                <field name="x_loai_ct"
+                       string="Loại"
+                       widget="badge"
+                       decoration-success="x_loai_ct == 'thu'"
+                       decoration-danger="x_loai_ct == 'chi'"
+                       optional="show"/>
+                <field name="partner_id" string="Đối tượng" optional="show"/>
+                <field name="state"
+                       string="Trạng thái"
+                       widget="badge"
+                       decoration-success="state == 'posted'"
+                       decoration-warning="state == 'draft'"
+                       optional="show"/>
+                <field name="currency_id" column_invisible="1"/>
+                <field name="company_id" column_invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ── SEARCH VIEW ── -->
+    <record id="view_cash_move_search" model="ir.ui.view">
+        <field name="name">cash.move.search</field>
+        <field name="model">account.move</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm chứng từ tiền mặt">
+                <field name="name" string="Số chứng từ"/>
+                <field name="partner_id" string="Đối tượng"/>
+                <field name="x_ly_do" string="Lý do"/>
+                <field name="x_dien_giai" string="Diễn giải"/>
+                <field name="date" string="Ngày"/>
+
+                <!-- Bộ lọc nhanh -->
+                <filter name="filter_thu"
+                        string="Thu tiền"
+                        domain="[('x_loai_ct', '=', 'thu')]"/>
+                <filter name="filter_chi"
+                        string="Chi tiền"
+                        domain="[('x_loai_ct', '=', 'chi')]"/>
+                <separator/>
+                <filter name="filter_hom_nay"
+                        string="Hôm nay"
+                        domain="[('date', '=', context_today().strftime('%Y-%m-%d'))]"/>
+                <filter name="filter_thang_nay"
+                        string="Tháng này"
+                        domain="[('date', '&gt;=', (context_today() + relativedelta(day=1)).strftime('%Y-%m-%d'))]"/>
+                <filter name="filter_dau_nam"
+                        string="Đầu năm tới hiện tại"
+                        domain="[('date', '&gt;=', context_today().strftime('%Y-01-01'))]"/>
+                <separator/>
+                <filter name="filter_posted"
+                        string="Đã vào sổ"
+                        domain="[('state', '=', 'posted')]"/>
+                <filter name="filter_draft"
+                        string="Nháp"
+                        domain="[('state', '=', 'draft')]"/>
+
+                <!-- Nhóm theo -->
+                <group expand="0" string="Nhóm theo">
+                    <filter name="group_by_date"
+                            string="Ngày"
+                            context="{'group_by': 'date:day'}"/>
+                    <filter name="group_by_month"
+                            string="Tháng"
+                            context="{'group_by': 'date:month'}"/>
+                    <filter name="group_by_partner"
+                            string="Đối tượng"
+                            context="{'group_by': 'partner_id'}"/>
+                    <filter name="group_by_loai"
+                            string="Loại (Thu/Chi)"
+                            context="{'group_by': 'x_loai_ct'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- ── ACTION: Mở danh sách tiền mặt ── -->
+    <record id="action_cash_move_list" model="ir.actions.act_window">
+        <field name="name">Sổ Quỹ Tiền Mặt</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+            (0, 0, {'view_mode': 'tree', 'view_id': ref('view_cash_move_list')}),
+        ]"/>
+        <field name="domain">[('journal_id.type', '=', 'cash'), ('move_type', '=', 'entry')]</field>
+        <field name="context">{
+            'default_move_type': 'entry',
+            'search_default_filter_posted': 1,
+            'search_default_filter_dau_nam': 1
+        }</field>
+        <field name="search_view_id" ref="view_cash_move_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Chưa có phiếu thu/chi tiền mặt nào
+            </p>
+            <p>
+                Bấm <strong>Thu tiền</strong> để tạo phiếu thu
+                hoặc <strong>Chi tiền</strong> để tạo phiếu chi.
+            </p>
+        </field>
+    </record>
+</odoo>

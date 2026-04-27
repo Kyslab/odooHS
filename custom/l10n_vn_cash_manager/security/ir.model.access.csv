@@ -1,0 +1,25 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_cash_receipt_wizard_user,cash.receipt.wizard user,model_cash_receipt_wizard,account.group_account_user,1,1,1,1
+access_cash_receipt_wizard_manager,cash.receipt.wizard manager,model_cash_receipt_wizard,account.group_account_manager,1,1,1,1
+access_cash_payment_wizard_user,cash.payment.wizard user,model_cash_payment_wizard,account.group_account_user,1,1,1,1
+access_cash_payment_wizard_manager,cash.payment.wizard manager,model_cash_payment_wizard,account.group_account_manager,1,1,1,1
+access_cash_receipt_invoice_wizard_user,cash.receipt.invoice.wizard user,model_cash_receipt_invoice_wizard,account.group_account_user,1,1,1,1
+access_cash_receipt_invoice_wizard_manager,cash.receipt.invoice.wizard manager,model_cash_receipt_invoice_wizard,account.group_account_manager,1,1,1,1
+access_cash_receipt_invoice_line_user,cash.receipt.invoice.line user,model_cash_receipt_invoice_line,account.group_account_user,1,1,1,1
+access_cash_receipt_invoice_line_manager,cash.receipt.invoice.line manager,model_cash_receipt_invoice_line,account.group_account_manager,1,1,1,1
+access_cash_payment_invoice_wizard_user,cash.payment.invoice.wizard user,model_cash_payment_invoice_wizard,account.group_account_user,1,1,1,1
+access_cash_payment_invoice_wizard_manager,cash.payment.invoice.wizard manager,model_cash_payment_invoice_wizard,account.group_account_manager,1,1,1,1
+access_cash_payment_invoice_line_user,cash.payment.invoice.line user,model_cash_payment_invoice_line,account.group_account_user,1,1,1,1
+access_cash_payment_invoice_line_manager,cash.payment.invoice.line manager,model_cash_payment_invoice_line,account.group_account_manager,1,1,1,1
+access_bank_receipt_wizard_user,bank.receipt.wizard user,model_bank_receipt_wizard,account.group_account_user,1,1,1,1
+access_bank_receipt_wizard_manager,bank.receipt.wizard manager,model_bank_receipt_wizard,account.group_account_manager,1,1,1,1
+access_bank_payment_wizard_user,bank.payment.wizard user,model_bank_payment_wizard,account.group_account_user,1,1,1,1
+access_bank_payment_wizard_manager,bank.payment.wizard manager,model_bank_payment_wizard,account.group_account_manager,1,1,1,1
+access_bank_receipt_invoice_wizard_user,bank.receipt.invoice.wizard user,model_bank_receipt_invoice_wizard,account.group_account_user,1,1,1,1
+access_bank_receipt_invoice_wizard_manager,bank.receipt.invoice.wizard manager,model_bank_receipt_invoice_wizard,account.group_account_manager,1,1,1,1
+access_bank_receipt_invoice_line_user,bank.receipt.invoice.line user,model_bank_receipt_invoice_line,account.group_account_user,1,1,1,1
+access_bank_receipt_invoice_line_manager,bank.receipt.invoice.line manager,model_bank_receipt_invoice_line,account.group_account_manager,1,1,1,1
+access_bank_payment_invoice_wizard_user,bank.payment.invoice.wizard user,model_bank_payment_invoice_wizard,account.group_account_user,1,1,1,1
+access_bank_payment_invoice_wizard_manager,bank.payment.invoice.wizard manager,model_bank_payment_invoice_wizard,account.group_account_manager,1,1,1,1
+access_bank_payment_invoice_line_user,bank.payment.invoice.line user,model_bank_payment_invoice_line,account.group_account_user,1,1,1,1
+access_bank_payment_invoice_line_manager,bank.payment.invoice.line manager,model_bank_payment_invoice_line,account.group_account_manager,1,1,1,1

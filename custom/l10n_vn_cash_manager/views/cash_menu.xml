@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- ══════════════════════════════════════════════
+             TIỀN MẶT
+        ══════════════════════════════════════════════ -->
+        <menuitem id="menu_cash_root"
+                  name="Tien Mat"
+                  parent="account.menu_finance"
+                  sequence="15"/>
+
+        <menuitem id="menu_cash_move_list"
+                  name="So Quy Tien Mat"
+                  parent="menu_cash_root"
+                  action="action_cash_move_list"
+                  sequence="10"/>
+
+        <!-- Menu cha: Thu tiền mặt -->
+        <menuitem id="menu_cash_thu_root"
+                  name="Thu Tien"
+                  parent="menu_cash_root"
+                  sequence="20"/>
+
+        <menuitem id="menu_cash_receipt"
+                  name="Thu Tien Nhanh"
+                  parent="menu_cash_thu_root"
+                  action="action_cash_receipt_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_cash_receipt_invoice"
+                  name="Thu Tien Theo Hoa Don"
+                  parent="menu_cash_thu_root"
+                  action="action_cash_receipt_invoice_wizard"
+                  sequence="20"/>
+
+        <!-- Menu cha: Chi tiền mặt -->
+        <menuitem id="menu_cash_chi_root"
+                  name="Chi Tien"
+                  parent="menu_cash_root"
+                  sequence="30"/>
+
+        <menuitem id="menu_cash_payment"
+                  name="Chi Tien Nhanh"
+                  parent="menu_cash_chi_root"
+                  action="action_cash_payment_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_cash_payment_invoice"
+                  name="Tra Tien Theo Hoa Don"
+                  parent="menu_cash_chi_root"
+                  action="action_cash_payment_invoice_wizard"
+                  sequence="20"/>
+
+        <!-- ══════════════════════════════════════════════
+             NGÂN HÀNG
+        ══════════════════════════════════════════════ -->
+        <menuitem id="menu_bank_root"
+                  name="Ngan Hang"
+                  parent="account.menu_finance"
+                  sequence="16"/>
+
+        <menuitem id="menu_bank_move_list"
+                  name="So Ngan Hang"
+                  parent="menu_bank_root"
+                  action="action_bank_move_list"
+                  sequence="10"/>
+
+        <!-- Menu cha: Thu tiền ngân hàng -->
+        <menuitem id="menu_bank_thu_root"
+                  name="Thu Tien"
+                  parent="menu_bank_root"
+                  sequence="20"/>
+
+        <menuitem id="menu_bank_receipt"
+                  name="Thu Tien Nhanh"
+                  parent="menu_bank_thu_root"
+                  action="action_bank_receipt_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_bank_receipt_invoice"
+                  name="Thu Tien Theo Hoa Don"
+                  parent="menu_bank_thu_root"
+                  action="action_bank_receipt_invoice_wizard"
+                  sequence="20"/>
+
+        <!-- Menu cha: Chi tiền ngân hàng -->
+        <menuitem id="menu_bank_chi_root"
+                  name="Chi Tien"
+                  parent="menu_bank_root"
+                  sequence="30"/>
+
+        <menuitem id="menu_bank_payment"
+                  name="Chi Tien Nhanh"
+                  parent="menu_bank_chi_root"
+                  action="action_bank_payment_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_bank_payment_invoice"
+                  name="Tra Tien Theo Hoa Don"
+                  parent="menu_bank_chi_root"
+                  action="action_bank_payment_invoice_wizard"
+                  sequence="20"/>
+    </data>
+</odoo>

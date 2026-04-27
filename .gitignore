@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Odoo runtime
+odoo.log
+data/
+*.session
+update_out.txt
+update_err.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Scripts tạm
+check_*.py
+fix_*.py
+reconcile_*.py
