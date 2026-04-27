@@ -1,0 +1,16 @@
+[options]
+admin_passwd = NHAP_MASTER_PASSWORD_O_DAY
+; ── Neon Database (liên hệ chủ repo để lấy password) ─────────────────────
+db_host = ep-blue-mode-aoy3s13z.c-2.ap-southeast-1.aws.neon.tech
+db_port = 5432
+db_user = neondb_owner
+db_password = NHAP_DB_PASSWORD_O_DAY
+db_name = neondb
+db_sslmode = require
+; ──────────────────────────────────────────────────────────────────────────
+addons_path = D:/odoo/custom,D:/odoo/community/addons,D:/odoo/community/odoo/addons
+xmlrpc_port = 8017
+logfile = D:/odoo/odoo.log
+log_level = info
+bin_path = C:/Program Files/wkhtmltopdf/bin
+data_dir = D:/odoo/data
