@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+  <!-- ── LIST VIEW cho line model ─────────────────────────── -->
+  <record id="view_reconcile_payment_wizard_line_list" model="ir.ui.view">
+    <field name="name">reconcile.payment.wizard.line.list</field>
+    <field name="model">reconcile.payment.wizard.line</field>
+    <field name="arch" type="xml">
+      <list editable="bottom"
+            decoration-success="selected == True"
+            decoration-muted="amount_residual == 0">
+        <field name="selected" widget="boolean_toggle"/>
+        <field name="doc_type" string="Loại CT"/>
+        <field name="date"/>
+        <field name="move_name" string="Số CT"/>
+        <field name="ref" string="Diễn giải" optional="show"/>
+        <field name="debit" sum="Tổng Nợ"/>
+        <field name="credit" sum="Tổng Có"/>
+        <field name="amount_residual" sum="Còn lại"/>
+        <field name="currency_id" column_invisible="True"/>
+        <field name="move_line_id" column_invisible="True"/>
+      </list>
+    </field>
+  </record>
+
   <!-- ── FORM VIEW ─────────────────────────────────────────── -->
   <record id="view_reconcile_payment_wizard_form" model="ir.ui.view">
     <field name="name">reconcile.payment.wizard.form</field>
@@ -29,7 +51,6 @@
             </group>
           </group>
 
-          <!-- Toolbar chọn nhanh -->
           <div class="d-flex gap-2 mb-2">
             <button string="✓ Chọn tất cả"
                     name="action_select_all" type="object"
@@ -39,21 +60,7 @@
                     class="btn btn-sm btn-secondary"/>
           </div>
 
-          <field name="line_ids" nolabel="1">
-            <list editable="bottom" decoration-success="selected == True"
-                  decoration-muted="amount_residual == 0">
-              <field name="selected" widget="boolean_toggle"/>
-              <field name="doc_type" string="Loại CT"/>
-              <field name="date"/>
-              <field name="move_name" string="Số CT"/>
-              <field name="ref" string="Diễn giải" optional="show"/>
-              <field name="debit" sum="Tổng Nợ"/>
-              <field name="credit" sum="Tổng Có"/>
-              <field name="amount_residual" sum="Còn lại"/>
-              <field name="currency_id" column_invisible="True"/>
-              <field name="move_line_id" column_invisible="True"/>
-            </list>
-          </field>
+          <field name="line_ids" nolabel="1"/>
         </sheet>
 
         <footer>
