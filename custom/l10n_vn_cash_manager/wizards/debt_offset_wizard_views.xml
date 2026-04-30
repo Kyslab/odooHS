@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- ── FORM VIEW ─────────────────────────────────────────── -->
+  <record id="view_debt_offset_wizard_form" model="ir.ui.view">
+    <field name="name">debt.offset.wizard.form</field>
+    <field name="model">debt.offset.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Bù trừ công nợ phải thu / phải trả">
+        <sheet>
+          <div class="alert alert-warning" role="alert">
+            <strong>Hướng dẫn:</strong>
+            Dùng khi đối tác vừa là <b>Khách hàng</b> (TK 131) vừa là <b>Nhà cung cấp</b> (TK 331).
+            Chọn các khoản cần bù trừ → hệ thống tự tạo bút toán <b>Nợ 331 / Có 131</b>.
+          </div>
+
+          <!-- Thông tin chung -->
+          <group>
+            <group string="Thông tin">
+              <field name="partner_id" options="{'no_create': True}"/>
+              <field name="journal_id" options="{'no_create': True}"/>
+              <field name="date"/>
+              <field name="ref"/>
+              <field name="currency_id" invisible="1"/>
+            </group>
+            <group string="Tổng hợp">
+              <field name="total_receivable_selected" string="Tổng phải thu chọn (131)"/>
+              <field name="total_payable_selected" string="Tổng phải trả chọn (331)"/>
+              <field name="amount_to_offset"
+                     class="fw-bold text-success"
+                     string="→ Số tiền sẽ bù trừ"/>
+              <field name="remaining_receivable" string="Còn lại phải thu"/>
+              <field name="remaining_payable" string="Còn lại phải trả"/>
+            </group>
+          </group>
+
+          <!-- Hai bảng song song -->
+          <div class="row">
+            <div class="col-6">
+              <h5 class="text-primary">📥 Phải thu — TK 131 (Khách hàng nợ bạn)</h5>
+              <field name="receivable_line_ids"
+                     domain="[('side','=','receivable')]"
+                     nolabel="1">
+                <list editable="bottom"
+                      decoration-success="selected == True">
+                  <field name="selected" widget="boolean_toggle"/>
+                  <field name="date"/>
+                  <field name="move_name" string="Số CT"/>
+                  <field name="ref" string="Diễn giải" optional="show"/>
+                  <field name="amount_residual" string="Số dư Nợ" sum="Tổng"/>
+                  <field name="currency_id" column_invisible="True"/>
+                  <field name="move_line_id" column_invisible="True"/>
+                  <field name="side" column_invisible="True"/>
+                </list>
+              </field>
+            </div>
+            <div class="col-6">
+              <h5 class="text-danger">📤 Phải trả — TK 331 (Bạn nợ nhà cung cấp)</h5>
+              <field name="payable_line_ids"
+                     domain="[('side','=','payable')]"
+                     nolabel="1">
+                <list editable="bottom"
+                      decoration-success="selected == True">
+                  <field name="selected" widget="boolean_toggle"/>
+                  <field name="date"/>
+                  <field name="move_name" string="Số CT"/>
+                  <field name="ref" string="Diễn giải" optional="show"/>
+                  <field name="amount_residual" string="Số dư Có" sum="Tổng"/>
+                  <field name="currency_id" column_invisible="True"/>
+                  <field name="move_line_id" column_invisible="True"/>
+                  <field name="side" column_invisible="True"/>
+                </list>
+              </field>
+            </div>
+          </div>
+
+        </sheet>
+
+        <footer>
+          <button string="⚡ Bù Trừ Công Nợ"
+                  name="action_offset" type="object"
+                  class="btn-primary"/>
+          <button string="Đóng" class="btn-secondary" special="cancel"/>
+        </footer>
+      </form>
+    </field>
+  </record>
+
+  <!-- ── ACTION ────────────────────────────────────────────── -->
+  <record id="action_debt_offset_wizard" model="ir.actions.act_window">
+    <field name="name">Bù Trừ Công Nợ (131 vs 331)</field>
+    <field name="res_model">debt.offset.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+  </record>
+
+</odoo>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- ── FORM VIEW ─────────────────────────────────────────── -->
+  <record id="view_reconcile_payment_wizard_form" model="ir.ui.view">
+    <field name="name">reconcile.payment.wizard.form</field>
+    <field name="model">reconcile.payment.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Ghép phiếu thu/chi với hóa đơn">
+        <sheet>
+          <div class="alert alert-info" role="alert">
+            <strong>Hướng dẫn:</strong>
+            Chọn đối tác → hệ thống tải tất cả dòng công nợ chưa đối trừ →
+            tích chọn các dòng cần ghép (phải có cả chiều <b>Nợ</b> và <b>Có</b>) →
+            bấm <b>Đối Trừ</b>.
+          </div>
+
+          <group>
+            <group string="Thông tin">
+              <field name="partner_id" options="{'no_create': True}"/>
+              <field name="account_type" widget="radio"/>
+            </group>
+            <group string="Tổng hợp dòng chọn">
+              <field name="count_selected" string="Số dòng đã chọn"/>
+              <field name="total_debit"/>
+              <field name="total_credit"/>
+              <field name="total_residual"/>
+              <field name="currency_id" invisible="1"/>
+            </group>
+          </group>
+
+          <!-- Toolbar chọn nhanh -->
+          <div class="d-flex gap-2 mb-2">
+            <button string="✓ Chọn tất cả"
+                    name="action_select_all" type="object"
+                    class="btn btn-sm btn-secondary"/>
+            <button string="✗ Bỏ chọn tất cả"
+                    name="action_deselect_all" type="object"
+                    class="btn btn-sm btn-secondary"/>
+          </div>
+
+          <field name="line_ids" nolabel="1">
+            <list editable="bottom" decoration-success="selected == True"
+                  decoration-muted="amount_residual == 0">
+              <field name="selected" widget="boolean_toggle"/>
+              <field name="doc_type" string="Loại CT" optional="show"/>
+              <field name="date"/>
+              <field name="move_name" string="Số CT"/>
+              <field name="ref" string="Diễn giải" optional="show"/>
+              <field name="debit" sum="Tổng Nợ"/>
+              <field name="credit" sum="Tổng Có"/>
+              <field name="amount_residual" sum="Còn lại"/>
+              <field name="currency_id" column_invisible="True"/>
+              <field name="move_line_id" column_invisible="True"/>
+            </list>
+          </field>
+        </sheet>
+
+        <footer>
+          <button string="🔗 Đối Trừ"
+                  name="action_reconcile" type="object"
+                  class="btn-primary"/>
+          <button string="Đóng" class="btn-secondary" special="cancel"/>
+        </footer>
+      </form>
+    </field>
+  </record>
+
+  <!-- ── ACTION ────────────────────────────────────────────── -->
+  <record id="action_reconcile_payment_wizard" model="ir.actions.act_window">
+    <field name="name">Ghép Phiếu Thu/Chi với Hóa Đơn</field>
+    <field name="res_model">reconcile.payment.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="context">{'default_account_type': 'trade_receivable'}</field>
+  </record>
+
+  <record id="action_reconcile_payment_wizard_payable" model="ir.actions.act_window">
+    <field name="name">Ghép Phiếu Thu/Chi với Hóa Đơn (Phải trả)</field>
+    <field name="res_model">reconcile.payment.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="context">{'default_account_type': 'trade_payable'}</field>
+  </record>
+
+</odoo>

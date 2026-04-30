@@ -23,3 +23,11 @@ access_bank_payment_invoice_wizard_user,bank.payment.invoice.wizard user,model_b
 access_bank_payment_invoice_wizard_manager,bank.payment.invoice.wizard manager,model_bank_payment_invoice_wizard,account.group_account_manager,1,1,1,1
 access_bank_payment_invoice_line_user,bank.payment.invoice.line user,model_bank_payment_invoice_line,account.group_account_user,1,1,1,1
 access_bank_payment_invoice_line_manager,bank.payment.invoice.line manager,model_bank_payment_invoice_line,account.group_account_manager,1,1,1,1
+access_reconcile_payment_wizard_user,reconcile.payment.wizard user,model_reconcile_payment_wizard,account.group_account_user,1,1,1,1
+access_reconcile_payment_wizard_manager,reconcile.payment.wizard manager,model_reconcile_payment_wizard,account.group_account_manager,1,1,1,1
+access_reconcile_payment_wizard_line_user,reconcile.payment.wizard.line user,model_reconcile_payment_wizard_line,account.group_account_user,1,1,1,1
+access_reconcile_payment_wizard_line_manager,reconcile.payment.wizard.line manager,model_reconcile_payment_wizard_line,account.group_account_manager,1,1,1,1
+access_debt_offset_wizard_user,debt.offset.wizard user,model_debt_offset_wizard,account.group_account_user,1,1,1,1
+access_debt_offset_wizard_manager,debt.offset.wizard manager,model_debt_offset_wizard,account.group_account_manager,1,1,1,1
+access_debt_offset_wizard_line_user,debt.offset.wizard.line user,model_debt_offset_wizard_line,account.group_account_user,1,1,1,1
+access_debt_offset_wizard_line_manager,debt.offset.wizard.line manager,model_debt_offset_wizard_line,account.group_account_manager,1,1,1,1

@@ -51,6 +51,30 @@
                   action="action_cash_payment_invoice_wizard"
                   sequence="20"/>
 
+        <!-- Menu cha: Đối trừ tiền mặt -->
+        <menuitem id="menu_cash_doi_tru_root"
+                  name="Doi Tru Cong No"
+                  parent="menu_cash_root"
+                  sequence="40"/>
+
+        <menuitem id="menu_cash_reconcile_receivable"
+                  name="Ghep Phieu TM voi Hoa Don Ban"
+                  parent="menu_cash_doi_tru_root"
+                  action="action_reconcile_payment_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_cash_reconcile_payable"
+                  name="Ghep Phieu TM voi Hoa Don Mua"
+                  parent="menu_cash_doi_tru_root"
+                  action="action_reconcile_payment_wizard_payable"
+                  sequence="20"/>
+
+        <menuitem id="menu_cash_debt_offset"
+                  name="Bu Tru Cong No 131 vs 331"
+                  parent="menu_cash_doi_tru_root"
+                  action="action_debt_offset_wizard"
+                  sequence="30"/>
+
         <!-- ══════════════════════════════════════════════
              NGÂN HÀNG
         ══════════════════════════════════════════════ -->
@@ -100,5 +124,29 @@
                   parent="menu_bank_chi_root"
                   action="action_bank_payment_invoice_wizard"
                   sequence="20"/>
+
+        <!-- Menu cha: Đối trừ ngân hàng -->
+        <menuitem id="menu_bank_doi_tru_root"
+                  name="Doi Tru Cong No"
+                  parent="menu_bank_root"
+                  sequence="40"/>
+
+        <menuitem id="menu_bank_reconcile_receivable"
+                  name="Ghep Phieu NH voi Hoa Don Ban"
+                  parent="menu_bank_doi_tru_root"
+                  action="action_reconcile_payment_wizard"
+                  sequence="10"/>
+
+        <menuitem id="menu_bank_reconcile_payable"
+                  name="Ghep Phieu NH voi Hoa Don Mua"
+                  parent="menu_bank_doi_tru_root"
+                  action="action_reconcile_payment_wizard_payable"
+                  sequence="20"/>
+
+        <menuitem id="menu_bank_debt_offset"
+                  name="Bu Tru Cong No 131 vs 331"
+                  parent="menu_bank_doi_tru_root"
+                  action="action_debt_offset_wizard"
+                  sequence="30"/>
     </data>
 </odoo>

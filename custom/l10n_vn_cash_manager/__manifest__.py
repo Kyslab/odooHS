@@ -27,6 +27,9 @@
         'wizards/bank_receipt_invoice_wizard_views.xml',
         'wizards/bank_payment_invoice_wizard_views.xml',
         'views/bank_move_views.xml',
+        # ── Đối trừ công nợ ──
+        'wizards/reconcile_payment_wizard_views.xml',
+        'wizards/debt_offset_wizard_views.xml',
         # ── Menu ──
         'views/cash_menu.xml',
     ],

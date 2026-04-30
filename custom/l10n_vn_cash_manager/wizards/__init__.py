@@ -6,3 +6,5 @@ from . import bank_receipt_wizard
 from . import bank_payment_wizard
 from . import bank_receipt_invoice_wizard
 from . import bank_payment_invoice_wizard
+from . import reconcile_payment_wizard
+from . import debt_offset_wizard
