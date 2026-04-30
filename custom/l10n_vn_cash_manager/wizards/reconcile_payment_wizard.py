@@ -21,9 +21,6 @@ class ReconcilePaymentWizardLine(models.TransientModel):
         related='move_line_id.amount_residual', string='Còn lại', readonly=True)
     currency_id = fields.Many2one(
         related='move_line_id.company_currency_id', readonly=True)
-    move_type = fields.Char(
-        related='move_line_id.move_id.move_type', string='Loại CT', readonly=True)
-
     @api.depends('move_line_id')
     def _compute_doc_type(self):
         type_map = {

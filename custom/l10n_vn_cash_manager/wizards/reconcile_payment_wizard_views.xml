@@ -43,7 +43,7 @@
             <list editable="bottom" decoration-success="selected == True"
                   decoration-muted="amount_residual == 0">
               <field name="selected" widget="boolean_toggle"/>
-              <field name="doc_type" string="Loại CT" optional="show"/>
+              <field name="doc_type" string="Loại CT"/>
               <field name="date"/>
               <field name="move_name" string="Số CT"/>
               <field name="ref" string="Diễn giải" optional="show"/>
@@ -52,6 +52,7 @@
               <field name="amount_residual" sum="Còn lại"/>
               <field name="currency_id" column_invisible="True"/>
               <field name="move_line_id" column_invisible="True"/>
+              <field name="doc_type" column_invisible="True"/>
             </list>
           </field>
         </sheet>
