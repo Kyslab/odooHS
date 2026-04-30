@@ -1,6 +1,7 @@
 # Config chứa password — không commit
 odoo_neon.conf
 odoo.conf
+vps.conf
 
 # Python
 __pycache__/
