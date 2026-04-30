@@ -52,7 +52,6 @@
               <field name="amount_residual" sum="Còn lại"/>
               <field name="currency_id" column_invisible="True"/>
               <field name="move_line_id" column_invisible="True"/>
-              <field name="doc_type" column_invisible="True"/>
             </list>
           </field>
         </sheet>
