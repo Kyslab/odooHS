@@ -6,7 +6,7 @@
     <field name="name">reconcile.payment.wizard.line.list</field>
     <field name="model">reconcile.payment.wizard.line</field>
     <field name="arch" type="xml">
-      <list editable="bottom"
+      <tree editable="bottom"
             decoration-success="selected == True"
             decoration-muted="amount_residual == 0">
         <field name="selected" widget="boolean_toggle"/>
@@ -17,9 +17,9 @@
         <field name="debit" sum="Tổng Nợ"/>
         <field name="credit" sum="Tổng Có"/>
         <field name="amount_residual" sum="Còn lại"/>
-        <field name="currency_id" column_invisible="True"/>
-        <field name="move_line_id" column_invisible="True"/>
-      </list>
+        <field name="currency_id" invisible="1"/>
+        <field name="move_line_id" invisible="1"/>
+      </tree>
     </field>
   </record>
 

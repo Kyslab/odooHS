@@ -41,7 +41,7 @@
               <field name="receivable_line_ids"
                      domain="[('side','=','receivable')]"
                      nolabel="1">
-                <list editable="bottom"
+                <tree editable="bottom"
                       decoration-success="selected == True">
                   <field name="selected" widget="boolean_toggle"/>
                   <field name="date"/>
@@ -51,7 +51,7 @@
                   <field name="currency_id" column_invisible="True"/>
                   <field name="move_line_id" column_invisible="True"/>
                   <field name="side" column_invisible="True"/>
-                </list>
+                </tree>
               </field>
             </div>
             <div class="col-6">
@@ -59,7 +59,7 @@
               <field name="payable_line_ids"
                      domain="[('side','=','payable')]"
                      nolabel="1">
-                <list editable="bottom"
+                <tree editable="bottom"
                       decoration-success="selected == True">
                   <field name="selected" widget="boolean_toggle"/>
                   <field name="date"/>
@@ -69,7 +69,7 @@
                   <field name="currency_id" column_invisible="True"/>
                   <field name="move_line_id" column_invisible="True"/>
                   <field name="side" column_invisible="True"/>
-                </list>
+                </tree>
               </field>
             </div>
           </div>
